@@ -18,3 +18,8 @@
     height: 100vh;
     font-size: large;
   }
+
+  .icon {
+    display: flex;
+    justify-content: center;
+  }
