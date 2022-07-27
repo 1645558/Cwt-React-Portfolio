@@ -1,22 +1,26 @@
 .header {
-    background: gray;
+    background-image: url(../images/cool-background1.png);
     height: 100px;
   }
   
   .header h1 {
-    margin: 0;
-    color: white;
+    color: black;
     padding-top: 25px;
     padding-left: 10px;
     font-size: 3rem;
     padding-bottom: 10px;
-    border-bottom: 1px solid;
   }
 
-  .section {
+  .portfolio {
     padding-top: 75px;
-    padding-left: 10px;
+    padding-left: 40px;
     height: 100vh;
     font-size: large;
-    background-image: linear-gradient(gray, lightgray);
+    column-count: 3;
+  }
+
+  .card {
+    border: 1px solid;
+    margin-bottom: 50px;
+    background-image: url(../images/cool-background.png);
   }

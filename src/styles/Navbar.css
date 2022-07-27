@@ -1,11 +1,17 @@
-body {
+/* body {
     margin: 0;
     padding: 0;
+} */
+
+.navbar {
+    background-image: url(../images/cool-background1.png);
 }
 
 .navbar a {
     text-decoration: none;
     margin: 10px;
-    float: right;
-    padding-top: 60px;
+    display: flex;
+    color: black;
+    justify-content: flex-end;
+    margin-top: auto;
 }
